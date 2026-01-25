@@ -15,7 +15,8 @@ I'm a Robotics software developer, passionate about building intelligent robotic
 
 ### 📫 Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/sharath-n-payyadi/) 
-- ✉️ sharathnpayyadi@gmail.com  
+- ✉️ sharathnpayyadi@gmail.com
+- https://sharathnpayyadi.github.io/
 
 ---
 
