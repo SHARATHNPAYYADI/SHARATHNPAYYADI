@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://sharathnpayyadi.github.io/"><img src="https://img.shields.io/badge/Portfolio-sharathnpayyadi.github.io-0A66C2?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/sharath-n-payyadi/"><img src="https://img.shields.io/badge/LinkedIn-sharath--n--payyadi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://medium.com/@sharathnp1998"><img src="https://img.shields.io/badge/Medium-Robotics%20blog-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium"></a>
+  <a href="https://medium.com/@sharathnpayyadi"><img src="https://img.shields.io/badge/Medium-Robotics%20blog-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium"></a>
   <a href="mailto:sharathnpayyadi@gmail.com"><img src="https://img.shields.io/badge/Email-sharathnpayyadi%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
@@ -17,7 +17,7 @@
 
 - 🤖 **Robotics Engineer @ Fireloop AI**: ROS 2 modules for AMRs and robotic arms, validated in NVIDIA Isaac Sim before real deployment
 - 🧠 Exploring **imitation learning and teleoperation** with Isaac Lab, from dataset collection to model training
-- ✍️ Writing beginner-friendly posts on **robotics simulation** on [Medium](https://medium.com/@sharathnp1998)
+- ✍️ Writing beginner-friendly posts on **robotics simulation** on [Medium](https://medium.com/@sharathnpayyadi)
 
 Previously: robotics software and CI/CD infrastructure at **AITONOMI AG**, and multi-robot traffic management at **NODE Robotics**.
 
