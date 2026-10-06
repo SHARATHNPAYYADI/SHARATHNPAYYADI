@@ -45,18 +45,27 @@ Simulation-first inspection stack for a Clearpath Husky UGV. A BehaviorTree.CPP 
 Browser-native 3D digital twin of a warehouse robot with real-time tracking, 8-directional A* pathfinding with live replanning around obstacles, a layout editor, multi-stop task queue, and persistent run metrics.
 <br>`FastAPI` `React Three Fiber` `TypeScript` `WebSocket` · [Live demo](https://husky-twin.vercel.app) · [Project details](https://sharathnpayyadi.github.io/projects/husky-twin.html)
 
-#### Academic research
-- **[Traffic Management of Multiple Robots using a Graph Environment](https://sharathnpayyadi.github.io/projects/thesis.html)** (Master's thesis): priority-based scheduling and shared path allocation for multi-robot fleets, validated in ROS simulation. [Report](https://sharathnpayyadi.github.io/reports/master_thesis.pdf)
-- **[Vision-Based Pick-and-Place with the TIAGo Robot](https://sharathnpayyadi.github.io/projects/tiago-project.html)**: object detection integrated with MoveIt motion planning on a mobile manipulator. [Report](https://sharathnpayyadi.github.io/reports/tiago_project_report.pdf)
-- **[Disease Detection in Paddy Crop using CNN](https://sharathnpayyadi.github.io/projects/bachelor_thesis.html)** (Bachelor's thesis): CNN-based leaf image classification, published in IJRTE.
+#### [Multi-Robot Traffic Management on a Graph Environment](https://sharathnpayyadi.github.io/projects/thesis.html) (Master's thesis)
+Centralized traffic manager for heterogeneous AMR fleets, built with NODE Robotics. Models the site as a topological graph, detects path conflicts ahead of time, generates detours or safe waiting strategies, and dispatches orders to robots over VDA5050 / MQTT. Validated across detour, wait, merge and cross scenarios with zero deadlocks.
+<br>`ROS 2` `C++` `VDA5050` `MQTT` `Fleet Management` · [Thesis report](https://sharathnpayyadi.github.io/reports/master_thesis.pdf)
 
-#### More robotics repositories
-- **[panda_ws](https://github.com/SHARATHNPAYYADI/panda_ws)**: workspace to bring up the Franka Emika Panda arm and run manipulation scenarios.
-- **[diff_drive_ws](https://github.com/SHARATHNPAYYADI/diff_drive_ws)**: differential-drive robot setup with localization.
+#### [Vision-Based Pick-and-Place with TIAGo](https://sharathnpayyadi.github.io/projects/tiago-project.html)
+Autonomous pick-and-place pipeline for the PAL Robotics TIAGo mobile manipulator: ArUco-based pose estimation from the head RGB-D camera, Octomap collision mapping, spherical grasp sampling and MoveIt motion planning. Validated in Gazebo and on the physical robot.
+<br>`ROS` `MoveIt` `OpenCV / ArUco` `Octomap` `Gazebo` · [Project report](https://sharathnpayyadi.github.io/reports/tiago_project_report.pdf)
+
+#### [Franka Panda Manipulation Workspace](https://github.com/SHARATHNPAYYADI/panda_ws)
+ROS 2 workspace for the Franka Emika Panda arm in Gazebo with MoveIt 2. Includes simple and camera-based pick-and-place demos, a pick-and-insert scenario (spark plug into socket), teleoperation and trajectory following, OpenCV colour-based object pose estimation, custom service interfaces, and unit plus integration tests for detection, planning and grasping.
+<br>`ROS 2 Humble` `MoveIt 2` `Gazebo` `OpenCV` `Python` `colcon test`
+
+#### [Differential Drive Robot: Localization & Sensor Fusion](https://github.com/SHARATHNPAYYADI/diff_drive_ws)
+Differential drive robot with 2D LiDAR, IMU and wheel odometry, simulated in an apartment-style Gazebo world. Analyses wheel-odometry drift against ground truth and LiDAR scan-matching poses, then fuses odometry and scan-based corrections with a custom Extended Kalman Filter, with trajectory recording and plotting tools.
+<br>`ROS 2` `Gazebo` `LiDAR` `IMU` `EKF` `Python`
 
 ### Embedded Systems
 
-- **[Atmega-328p-WS](https://github.com/SHARATHNPAYYADI/Atmega-328p-WS)**: ATmega328P microcontroller programming workspace, built with Makefiles.
+#### [Disease Detection in Paddy Crop using CNN](https://sharathnpayyadi.github.io/projects/bachelor_thesis.html) (Bachelor's thesis)
+Portable crop-monitoring device on a Raspberry Pi that captures leaf images with a Pi Camera, runs two CNN models to detect rice blast and bacterial blight (about 95% overall accuracy), and alerts the farmer by SMS through a GSM module, with no internet connection required. Published in IJRTE (2020).
+<br>`Raspberry Pi` `Pi Camera` `GSM` `Keras / TensorFlow` `CNN` `Python` · [Paper](https://www.ijrte.org/portfolio-item/f9835038620/)
 
 ## Technical Stack
 
@@ -79,26 +88,16 @@ Browser-native 3D digital twin of a warehouse robot with real-time tracking, 8-d
 ![Isaac Lab](https://img.shields.io/badge/Isaac%20Lab-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=flat-square)
 
+**AI & Embedded**<br>
+![TensorFlow](https://img.shields.io/badge/TensorFlow%20%2F%20Keras-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+
 **DevOps & Tools**<br>
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-## Education
-
-- **M.Sc. Electrical and Information Technology**, Hochschule Darmstadt, Germany (2020 – 2022)
-- **B.E. Electronics and Communication Engineering**, Visvesvaraya Technological University, India (2016 – 2020)
-
-## Publications & Writing
-
-- [Disease Detection in Paddy Crop using CNN Algorithm](https://www.ijrte.org/portfolio-item/f9835038620/), *International Journal of Recent Technology and Engineering (IJRTE)*, 2020
-- [Why Simulation Is Essential in Robotics: A Beginner-Friendly Guide](https://medium.com/@sharathnp1998/why-simulation-is-essential-in-robotics-a-beginner-friendly-guide-0f48ba8eb664), Medium, 2026
-- [How to Get Started With Robotics Simulation](https://medium.com/@sharathnp1998/how-to-get-started-with-robotics-simulation-6a5a0c2ec4da), Medium, 2026
-- [Common Mistakes Beginners Make in Robotics Simulation](https://medium.com/@sharathnp1998/common-mistakes-beginners-make-in-robotics-simulation-edff0ac04958), Medium, 2026
-
-More articles on [Medium](https://medium.com/@sharathnpayyadi).
 
 ---
 
