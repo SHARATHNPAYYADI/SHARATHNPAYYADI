@@ -20,15 +20,6 @@ I am a Robotics Engineer building ROS-based autonomy software for autonomous mob
 
 I am focused on reliable robotics software that scales from development to production, with a growing interest in robot learning through imitation learning and teleoperation.
 
-## Experience
-
-| Role | Organization | Period |
-| :--- | :--- | :--- |
-| **Robotics Engineer**<br><sub>ROS 2 modules for AMRs and robotic arms, validated in Isaac Sim before deployment; imitation learning and teleoperation with Isaac Lab.</sub> | Fireloop AI | Nov 2025 – Present |
-| **Software Developer, Robotics & Infrastructure Automation**<br><sub>ROS 1 / ROS 2 development across simulation and production robots; CI/CD with Docker and Jenkins; deployment and on-site commissioning.</sub> | AITONOMI AG, Düsseldorf | Apr 2023 – Aug 2025 |
-| **Master's Thesis, Multi-Robot Traffic Management**<br><sub>Graph-based traffic management and shared path planning for fleets of robots in collaborative workspaces.</sub> | NODE Robotics GmbH, Stuttgart | Apr 2022 – Dec 2022 |
-| **Student Intern, ROS Backend Developer**<br><sub>Backend for ROS tools used in robot data analysis, playback and debugging of deployed systems.</sub> | NODE Robotics GmbH, Stuttgart | Sep 2021 – Feb 2022 |
-
 ## Core Expertise
 
 - **Autonomous Navigation:** Nav2, AMCL localization, behavior trees, multi-waypoint mission execution
@@ -38,29 +29,34 @@ I am focused on reliable robotics software that scales from development to produ
 - **Simulation & Sim-to-Real:** NVIDIA Isaac Sim, Isaac Lab, Gazebo, simulation-first validation workflows
 - **Robotics Infrastructure:** Dockerized ROS stacks, Jenkins CI/CD, testing pipelines, deployment and commissioning
 
-## Featured Projects
+## Projects
 
-### [iw_hub Autonomous Pick-and-Place](https://github.com/SHARATHNPAYYADI/iw_hub_isaac_ws)
+### Robotics & AI
+
+#### [iw_hub Autonomous Pick-and-Place](https://github.com/SHARATHNPAYYADI/iw_hub_isaac_ws)
 End-to-end autonomous mission stack for the idealworks iw_hub AMR in NVIDIA Isaac Sim. A single ROS 2 service runs the full mission (navigate, lift, transport, lower, clear) with Nav2 + AMCL on a dual-LiDAR base, velocity-ramped lift control, and a rosbridge web dashboard.
 <br>`ROS 2 Humble` `Nav2` `Isaac Sim` `AMR` `rosbridge` · [Project details](https://sharathnpayyadi.github.io/projects/iw-hub-pick-place.html)
 
-### [Husky Autonomous Inspection Robot](https://github.com/SHARATHNPAYYADI/husky_ai_inspection)
+#### [Husky Autonomous Inspection Robot](https://github.com/SHARATHNPAYYADI/husky_ai_inspection)
 Simulation-first inspection stack for a Clearpath Husky UGV. A BehaviorTree.CPP mission runner loops navigate, inspect and report across waypoints, with YOLO-based fire-extinguisher detection, auto-generated inspection reports, and a FastAPI dashboard for teleoperation and mission control.
 <br>`ROS 2` `Nav2` `BehaviorTree.CPP` `YOLO` `Gazebo` · [Live demo](https://sharathnpayyadi.github.io/projects/husky-inspection-demo.html) · [Project details](https://sharathnpayyadi.github.io/projects/husky-inspection.html)
 
-### [Husky Digital Twin](https://github.com/SHARATHNPAYYADI/husky-twin)
+#### [Husky Digital Twin](https://github.com/SHARATHNPAYYADI/husky-twin)
 Browser-native 3D digital twin of a warehouse robot with real-time tracking, 8-directional A* pathfinding with live replanning around obstacles, a layout editor, multi-stop task queue, and persistent run metrics.
 <br>`FastAPI` `React Three Fiber` `TypeScript` `WebSocket` · [Live demo](https://husky-twin.vercel.app) · [Project details](https://sharathnpayyadi.github.io/projects/husky-twin.html)
 
-<details>
-<summary><b>Academic research projects</b></summary>
-<br>
-
+#### Academic research
 - **[Traffic Management of Multiple Robots using a Graph Environment](https://sharathnpayyadi.github.io/projects/thesis.html)** (Master's thesis): priority-based scheduling and shared path allocation for multi-robot fleets, validated in ROS simulation. [Report](https://sharathnpayyadi.github.io/reports/master_thesis.pdf)
 - **[Vision-Based Pick-and-Place with the TIAGo Robot](https://sharathnpayyadi.github.io/projects/tiago-project.html)**: object detection integrated with MoveIt motion planning on a mobile manipulator. [Report](https://sharathnpayyadi.github.io/reports/tiago_project_report.pdf)
 - **[Disease Detection in Paddy Crop using CNN](https://sharathnpayyadi.github.io/projects/bachelor_thesis.html)** (Bachelor's thesis): CNN-based leaf image classification, published in IJRTE.
 
-</details>
+#### More robotics repositories
+- **[panda_ws](https://github.com/SHARATHNPAYYADI/panda_ws)**: workspace to bring up the Franka Emika Panda arm and run manipulation scenarios.
+- **[diff_drive_ws](https://github.com/SHARATHNPAYYADI/diff_drive_ws)**: differential-drive robot setup with localization.
+
+### Embedded Systems
+
+- **[Atmega-328p-WS](https://github.com/SHARATHNPAYYADI/Atmega-328p-WS)**: ATmega328P microcontroller programming workspace, built with Makefiles.
 
 ## Technical Stack
 
