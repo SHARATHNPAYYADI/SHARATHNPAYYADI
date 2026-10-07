@@ -18,7 +18,7 @@
 
 I am a Robotics Engineer building ROS-based autonomy software for autonomous mobile robots (AMRs) and robotic arms. My work spans the full path from simulation to field deployment: developing ROS 1 / ROS 2 modules, validating them in NVIDIA Isaac Sim and Gazebo, building the CI/CD and Docker infrastructure around them, and supporting on-site commissioning through factory and site acceptance tests.
 
-I am focused on reliable robotics software that scales from development to production, with a growing interest in robot learning through imitation learning and teleoperation.
+I am focused on reliable robotics software that scales from development to production, with a growing interest in robot learning through imitation learning and teleoperation. I am currently working on an **agentic AI** project.
 
 ## Core Expertise
 
@@ -26,7 +26,7 @@ I am focused on reliable robotics software that scales from development to produ
 - **Manipulation & Motion Planning:** MoveIt, pick-and-place pipelines, coordinated mobile-base and arm execution
 - **Multi-Robot Systems:** graph-based traffic management, deadlock avoidance, shared path allocation
 - **Perception:** camera-based object detection (YOLO, OpenCV), pose estimation, LiDAR and IMU integration
-- **Simulation & Sim-to-Real:** NVIDIA Isaac Sim, Isaac Lab, Gazebo, simulation-first validation workflows
+- **Simulation & Sim-to-Real:** NVIDIA Isaac Sim, Isaac Lab, Gazebo, Unity, simulation-first validation workflows
 - **Robotics Infrastructure:** Dockerized ROS stacks, Jenkins CI/CD, testing pipelines, deployment and commissioning
 
 ## Projects
@@ -134,6 +134,7 @@ Portable, offline crop-monitoring device that detects rice blast and bacterial b
 ![Isaac Sim](https://img.shields.io/badge/NVIDIA%20Isaac%20Sim-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Isaac Lab](https://img.shields.io/badge/Isaac%20Lab-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=flat-square)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 
 **AI & Embedded**<br>
 ![TensorFlow](https://img.shields.io/badge/TensorFlow%20%2F%20Keras-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
