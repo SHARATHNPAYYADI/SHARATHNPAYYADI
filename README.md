@@ -33,37 +33,37 @@ I am focused on reliable robotics software that scales from development to produ
 
 ### Robotics & AI
 
-#### [iw_hub Autonomous Pick-and-Place](https://github.com/SHARATHNPAYYADI/iw_hub_isaac_ws)
+#### iw_hub Autonomous Pick-and-Place
 End-to-end autonomous mission stack for the idealworks iw_hub AMR in NVIDIA Isaac Sim. A single ROS 2 service runs the full mission (navigate, lift, transport, lower, clear) with Nav2 + AMCL on a dual-LiDAR base, velocity-ramped lift control, and a rosbridge web dashboard.
-<br>`ROS 2 Humble` `Nav2` `Isaac Sim` `AMR` `rosbridge` · [Project details](https://sharathnpayyadi.github.io/projects/iw-hub-pick-place.html)
+<br>`ROS 2 Humble` `Nav2` `Isaac Sim` `AMR` `rosbridge` · [GitHub](https://github.com/SHARATHNPAYYADI/iw_hub_isaac_ws)
 
-#### [Husky Autonomous Inspection Robot](https://github.com/SHARATHNPAYYADI/husky_ai_inspection)
+#### Husky Autonomous Inspection Robot
 Simulation-first inspection stack for a Clearpath Husky UGV. A BehaviorTree.CPP mission runner loops navigate, inspect and report across waypoints, with YOLO-based fire-extinguisher detection, auto-generated inspection reports, and a FastAPI dashboard for teleoperation and mission control.
-<br>`ROS 2` `Nav2` `BehaviorTree.CPP` `YOLO` `Gazebo` · [Live demo](https://sharathnpayyadi.github.io/projects/husky-inspection-demo.html) · [Project details](https://sharathnpayyadi.github.io/projects/husky-inspection.html)
+<br>`ROS 2` `Nav2` `BehaviorTree.CPP` `YOLO` `Gazebo` · [GitHub](https://github.com/SHARATHNPAYYADI/husky_ai_inspection)
 
-#### [Husky Digital Twin](https://github.com/SHARATHNPAYYADI/husky-twin)
+#### Husky Digital Twin
 Browser-native 3D digital twin of a warehouse robot with real-time tracking, 8-directional A* pathfinding with live replanning around obstacles, a layout editor, multi-stop task queue, and persistent run metrics.
-<br>`FastAPI` `React Three Fiber` `TypeScript` `WebSocket` · [Live demo](https://husky-twin.vercel.app) · [Project details](https://sharathnpayyadi.github.io/projects/husky-twin.html)
+<br>`FastAPI` `React Three Fiber` `TypeScript` `WebSocket` · [GitHub](https://github.com/SHARATHNPAYYADI/husky-twin) · [Live demo](https://husky-twin.vercel.app)
 
-#### [Multi-Robot Traffic Management on a Graph Environment](https://sharathnpayyadi.github.io/projects/thesis.html) (Master's thesis)
+#### Multi-Robot Traffic Management on a Graph Environment (Master's thesis)
 Centralized traffic manager for heterogeneous AMR fleets, built with NODE Robotics. Models the site as a topological graph, detects path conflicts ahead of time, generates detours or safe waiting strategies, and dispatches orders to robots over VDA5050 / MQTT. Validated across detour, wait, merge and cross scenarios with zero deadlocks.
-<br>`ROS 2` `C++` `VDA5050` `MQTT` `Fleet Management` · [Thesis report](https://sharathnpayyadi.github.io/reports/master_thesis.pdf)
+<br>`ROS 2` `C++` `VDA5050` `MQTT` `Fleet Management`
 
-#### [Vision-Based Pick-and-Place with TIAGo](https://sharathnpayyadi.github.io/projects/tiago-project.html)
+#### Vision-Based Pick-and-Place with TIAGo
 Autonomous pick-and-place pipeline for the PAL Robotics TIAGo mobile manipulator: ArUco-based pose estimation from the head RGB-D camera, Octomap collision mapping, spherical grasp sampling and MoveIt motion planning. Validated in Gazebo and on the physical robot.
-<br>`ROS` `MoveIt` `OpenCV / ArUco` `Octomap` `Gazebo` · [Project report](https://sharathnpayyadi.github.io/reports/tiago_project_report.pdf)
+<br>`ROS` `MoveIt` `OpenCV / ArUco` `Octomap` `Gazebo`
 
-#### [Franka Panda Manipulation Workspace](https://github.com/SHARATHNPAYYADI/panda_ws)
+#### Franka Panda Manipulation Workspace
 ROS 2 workspace for the Franka Emika Panda arm in Gazebo with MoveIt 2. Includes simple and camera-based pick-and-place demos, a pick-and-insert scenario (spark plug into socket), teleoperation and trajectory following, OpenCV colour-based object pose estimation, custom service interfaces, and unit plus integration tests for detection, planning and grasping.
-<br>`ROS 2 Humble` `MoveIt 2` `Gazebo` `OpenCV` `Python` `colcon test`
+<br>`ROS 2 Humble` `MoveIt 2` `Gazebo` `OpenCV` `Python` `colcon test` · [GitHub](https://github.com/SHARATHNPAYYADI/panda_ws)
 
-#### [Differential Drive Robot: Localization & Sensor Fusion](https://github.com/SHARATHNPAYYADI/diff_drive_ws)
+#### Differential Drive Robot: Localization & Sensor Fusion
 Differential drive robot with 2D LiDAR, IMU and wheel odometry, simulated in an apartment-style Gazebo world. Analyses wheel-odometry drift against ground truth and LiDAR scan-matching poses, then fuses odometry and scan-based corrections with a custom Extended Kalman Filter, with trajectory recording and plotting tools.
-<br>`ROS 2` `Gazebo` `LiDAR` `IMU` `EKF` `Python`
+<br>`ROS 2` `Gazebo` `LiDAR` `IMU` `EKF` `Python` · [GitHub](https://github.com/SHARATHNPAYYADI/diff_drive_ws)
 
 ### Embedded Systems
 
-#### [Disease Detection in Paddy Crop using CNN](https://sharathnpayyadi.github.io/projects/bachelor_thesis.html) (Bachelor's thesis)
+#### Disease Detection in Paddy Crop using CNN (Bachelor's thesis)
 Portable crop-monitoring device on a Raspberry Pi that captures leaf images with a Pi Camera, runs two CNN models to detect rice blast and bacterial blight (about 95% overall accuracy), and alerts the farmer by SMS through a GSM module, with no internet connection required. Published in IJRTE (2020).
 <br>`Raspberry Pi` `Pi Camera` `GSM` `Keras / TensorFlow` `CNN` `Python` · [Paper](https://www.ijrte.org/portfolio-item/f9835038620/)
 
